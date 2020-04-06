@@ -1,0 +1,126 @@
+
+.login-form {
+width: 350px;
+               
+margin:50px auto;
+
+}
+   
+ 
+    .login-form h2 {
+        margin: 0 0 15px;
+     
+    }
+    .form-control, .btn {
+        min-height: 1px;
+        border-radius: 7px;
+    }
+.input-group-addon .fa {
+        font-size: 15px;
+        right:60px;
+       
+    }
+    .btn {        
+        font-size: 15px;
+        font-weight: bold;
+  background-color:#87CEFA;
+    }
+.fa-stack fa-lg{
+
+        font-size: 18px;
+        right:20px;
+       
+    }
+label #cancel{
+position: absolute;
+z-index: 1111;
+left:280px;
+top:35px;
+fontsize:50px;
+color:white;
+padding: 4px 9px;
+}
+.fa-stack{
+position:absolute;
+left:25px;
+top:20px;
+font-size:20px;
+color:white;
+padding: 6px 1px;
+}
+.sidebar h1{
+font-size:23px;
+margin-right:-14em;
+margin-left:-.52em;
+
+color:white;
+text-align:center;
+line-height:50px;
+background-color:#87CEFA;
+user-select:none;
+
+}
+
+.left{
+transform:rotate(135deg);
+-webkit-transform:rotate(135deg);
+border:solid white;
+border-width:0 3px 3px 0;
+display:inline-block;
+padding:6px;
+}
+.right{
+transform:rotate(-45deg);
+-webkit-transform:rotate(-45deg);
+border:solid white;
+border-width:0 3px 3px 0;
+display:inline-block;
+padding:6px;
+}
+
+.border
+{
+border-width:0 2px 3px 0;
+
+padding:26px;
+
+border-bottom:solid black;
+}
+ .c h5{
+font-family:sans-serif;
+text-align:center;
+
+font-size:10px;
+max-width:600px;
+position:relative;
+
+
+
+}
+
+ h5:before{
+content:"";
+display:block;
+width:140px;
+height:2px;
+background:#000;
+position:absolute;
+left:0;
+top:50%;
+z-index:-2;
+}
+h5:after{
+content:"";
+display:block;
+width:140px;
+height:2px;
+background:#000;
+position:absolute;
+right:0;
+top:50%;
+z-index:-2;
+}
+
+
+
+
